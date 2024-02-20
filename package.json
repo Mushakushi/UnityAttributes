@@ -1,0 +1,13 @@
+{
+	"name": "com.mushakushi.attributes",
+  	"version": "1.0.0",
+  	"displayName": "Attributes",
+  	"description": "Additional Attributes",
+  	"unity": "2022.3",
+ 	"keywords": [ "Attributes", "Utility" ],
+  	"author": {
+   		"name": "Mushakushi",
+    		"email": "info@mushakushi.com",
+    		"url": "https://www.mushakushi.com"
+  	}
+}
