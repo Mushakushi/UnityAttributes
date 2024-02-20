@@ -11,4 +11,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - ReadOnlyAttribute
 - RenameAttribute
 
-[1.0.0]: https://github.com/Mushakushi/UnityAttributes/tree/v1.0.0
+v1.0.0: https://github.com/Mushakushi/UnityAttributes/tree/v1.0.0
