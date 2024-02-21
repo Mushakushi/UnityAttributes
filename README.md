@@ -1,12 +1,12 @@
 ## Attributes 
 
-### [ReadOnlyAttribute](Attributes/Runtime/ReadOnlyAttribute.cs)
+### ReadOnlyAttribute
 Creates an immutable variable in the inspector.
 ```csharp
 [ReadOnly] public int variable; 
 ```
 
-### [RenameAttribute](Attributes/Runtime/RenameAttribute.cs)
+### RenameAttribute
 Renames a variable in the inspector.
 ```csharp
 [Rename("More Specific Name"), SerializeField] private int variable; 
