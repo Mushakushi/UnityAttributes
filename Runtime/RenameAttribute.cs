@@ -2,21 +2,19 @@
 using JetBrains.Annotations;
 using UnityEngine;
 
-namespace Mushakushi.Attributes.Runtime
+
+/// <summary>
+/// Renames a property. 
+/// </summary>
+public sealed class RenameAttribute : PropertyAttribute
 {
     /// <summary>
-    /// Renames a property. 
+    /// The renamed name. 
     /// </summary>
-    public sealed class RenameAttribute : PropertyAttribute
+    [UsedImplicitly] public readonly string name; 
+
+    public RenameAttribute(string name)
     {
-        /// <summary>
-        /// The renamed name. 
-        /// </summary>
-        [UsedImplicitly] public readonly string name; 
-    
-        public RenameAttribute(string name)
-        {
-            this.name = name;
-        }
+        this.name = name;
     }
 }
